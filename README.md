@@ -24,8 +24,8 @@
 
 ### 講義內容分析  
 - **重要公式**  
-  - 波長與頻率：$$\lambda = \dfrac{c}{f}$$ 
-  - 角頻率：$$\omega = 2\pi f$$  
+  - 波長與頻率：$\lambda = \dfrac{c}{f}$ 
+  - 角頻率：$\omega = 2\pi f$  
 - **應用案例**  
   - WiFi (2.4 / 5.8 GHz)、Bluetooth (2.4 GHz)、GPS (1.575 GHz)、5G (24–39 GHz)  
 
@@ -50,9 +50,9 @@
 ### 講義內容分析  
 - **重要公式**  
   - 波動方程式：  
-    $$
-    \frac{\partial^2 V(z,t)}{\partial z^2} = LC \frac{\partial^2 V(z,t)}{\partial t^2}
-    $$  
+    ```math
+\frac{\partial^2 V(z,t)}{\partial z^2} = LC \frac{\partial^2 V(z,t)}{\partial t^2}
+```  
   - 反射係數：$\Gamma = \dfrac{Z_L - Z_0}{Z_L + Z_0}$  
   - 駐波比 (VSWR)：$\text{VSWR} = \dfrac{1 + |\Gamma|}{1 - |\Gamma|}$  
 - **應用情境**  
@@ -86,9 +86,9 @@
 - **重要公式**  
   - 最大功率傳輸條件：$Z_{in} = Z_{out}^*$  
   - 四分之一波長變壓器：  
-    $$
+    $
     Z_{in} = \frac{Z_0^2}{Z_L}, \quad l = \frac{\lambda}{4}
-    $$  
+    $  
 - **應用情境**  
   - 天線阻抗調整  
   - 放大器輸入/輸出匹配  
